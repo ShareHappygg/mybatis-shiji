@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mybatisTest.web.mapper.AppFolderMapper">
+
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.mybatisTest.web.entity.AppFolder">
+        <id column="app_folder_id" property="appFolderId" />
+        <result column="app_folder_name" property="appFolderName" />
+        <result column="app_folder_pid" property="appFolderPid" />
+        <result column="create_time" property="createTime" />
+    </resultMap>
+
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        app_folder_id, app_folder_name, app_folder_pid, create_time
+    </sql>
+
+    <update id="deleteAppFolderList">
+        update app_folder
+        set is_del = 1
+        where
+        app_folder_id   in
+        <foreach collection="list" item="id " open="(" close=")" separator=",">
+            #{id} 
+        </foreach>
+    </update>
+</mapper>

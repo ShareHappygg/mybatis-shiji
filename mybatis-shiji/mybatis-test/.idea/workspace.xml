@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="355d0548-996f-46cf-88dc-bca4c076b710" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Mybatis-generator/src/main/java/com/example/generator/annotation/FieldDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-generator/src/main/java/com/example/generator/annotation/TypeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-generator/src/main/java/com/example/generator/context/ProcessingEnvironmentHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-generator/src/main/java/com/example/generator/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-generator/src/main/java/com/example/generator/processor/BaseCodeGenProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-generator/src/main/java/com/example/generator/processor/Only4PlayCodeGenProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-generator/src/main/java/com/example/generator/processor/vo/GenVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-generator/src/main/java/com/example/generator/processor/vo/IgnoreVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-generator/src/main/java/com/example/generator/processor/vo/VoCodeGenProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-generator/src/main/java/com/example/generator/registry/CodeGenProcessorRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-generator/src/main/java/com/example/generator/spi/CodeGenProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/binding/MapperProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/binding/MapperProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/binding/MapperRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/builder/BaseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/builder/xml/XmlConfigBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/datasource/DataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/datasource/druid/DruidDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/datasource/pooled/PoolState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/datasource/pooled/PooledConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/datasource/pooled/PooledDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/datasource/pooled/PooledDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/datasource/unpooled/UnpooledDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/datasource/unpooled/UnpooledDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/executor/BaseExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/executor/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/executor/SimpleExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/executor/resultset/DefaultResultSetHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/executor/resultset/ResultSetHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/executor/statement/BaseStatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/executor/statement/PreparedStatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/executor/statement/SimpleStatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/executor/statement/StatementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/io/Resources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/mapping/BoundSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/mapping/Environment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/mapping/MappedStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/mapping/SqlCommandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/session/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/session/ResultHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/session/SqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/session/SqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/session/SqlSessionFactoryBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/session/TransactionIsolationLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/session/defaults/DefaultSqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/session/defaults/DefaultSqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/transaction/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/transaction/TransactionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/transaction/jdbc/JdbcTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/transaction/jdbc/JdbcTransactionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/type/JdbcType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/com/qrx/mybatis/type/TypeAliasRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/main/java/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/test/java/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/test/java/dao/ISchoolDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/test/java/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/test/resources/mapper/User_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-step/src/test/resources/mybatis-config-datasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-implement/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-implement/src/main/java/application/MyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-implement/src/main/java/application/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-implement/src/main/java/application/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-implement/src/main/java/mybatis/GenericTokenParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-implement/src/main/java/mybatis/IntegerTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-implement/src/main/java/mybatis/MapperProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-implement/src/main/java/mybatis/Param.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-implement/src/main/java/mybatis/ParameterMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-implement/src/main/java/mybatis/ParameterMappingTokenHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-implement/src/main/java/mybatis/Select.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-implement/src/main/java/mybatis/StringTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-implement/src/main/java/mybatis/TokenHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-implement/src/main/java/mybatis/TypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatisTest/generator/GeneratorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatisTest/generator/annotation/FieldDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatisTest/generator/annotation/TypeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatisTest/generator/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatisTest/generator/context/ProcessingEnvironmentHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatisTest/generator/processor/BaseCodeGenProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatisTest/generator/processor/Only4PlayCodeGenProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatisTest/generator/processor/vo/GenVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatisTest/generator/processor/vo/IgnoreVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatisTest/generator/processor/vo/VoCodeGenProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatisTest/generator/registry/CodeGenProcessorRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatisTest/generator/spi/CodeGenProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatisTest/generator/util/CommonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatisTest/web/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/controller.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dto.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/entity.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/mapper.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/mapper.xml.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/service.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/serviceImpl.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Redis-demo/src/RedisClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/SpringBoot-Transactional-demo/src/main/java/com/example/springboottransactionaldemo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/SpringBoot-Transactional-demo/src/main/java/com/example/springboottransactionaldemo/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/SpringBoot-Transactional-demo/src/main/java/com/example/springboottransactionaldemo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/entity/dto/ApplyFriendDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/src/main/java/com/example/dict/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/src/main/java/com/example/dict/mapper/SpiceBaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/src/main/java/com/example/dict/utils/DictThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/src/main/java/com/example/dict/utils/MultipartFileToFileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/src/main/java/com/example/dict/utils/SpiceSqlInjector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/src/main/java/com/example/dict/utils/SpringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../算法/查找算法/demo/src/二三树/Node_2_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../算法/查找算法/demo/src/二分查找/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../算法/查找算法/demo/src/二叉查找树/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../算法/查找算法/demo/src/二叉查找树/BSTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../算法/查找算法/demo/src/线性查找/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/common/constant/RedisConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/common/constant/RedisConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/common/utils/SecurityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/common/utils/SecurityUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/controller/app/ApplyFriendController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/controller/app/ApplyFriendController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/entity/ApplyFriend.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/entity/ApplyFriend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/framework/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/framework/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/framework/securtiy/filter/JwtTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/framework/securtiy/filter/JwtTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/framework/web/listener/ApplyFriendListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/framework/web/listener/ApplyFriendListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/param/chat/friend/ApplyFriendParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/param/chat/friend/ApplyFriendParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/param/chat/friend/RespondFriendParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/param/chat/friend/RespondFriendParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/sevice/ApplyFriendService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/sevice/ApplyFriendService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/sevice/impl/ApplyFriendServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/java/com/example/springbootchatdemo/sevice/impl/ApplyFriendServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/test/java/com/example/springbootchatdemo/SpringbootChatDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-chat-demo/src/test/java/com/example/springbootchatdemo/SpringbootChatDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/src/main/java/com/example/dict/DictApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/src/main/java/com/example/dict/DictApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/src/main/java/com/example/dict/entity/Dict.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/src/main/java/com/example/dict/entity/Dict.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/src/main/java/com/example/dict/listener/DictListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/src/main/java/com/example/dict/listener/DictListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/src/main/java/com/example/dict/mapper/DictMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/src/main/java/com/example/dict/mapper/DictMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-Demo/springboot-dict-demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../docs/redis/Redis.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../docs/redis/Redis.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\mavenPack" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.3/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2HwNgKdI85CSmI7CgsIEQCSKVfj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/mybatisTest/generator" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\qrx\ShareHappygg.github.io\demo\Mybatis-demo\mybatis-test\src\main\java\com\example\mybatisTest\generator" />
+      <recent name="G:\qrx\ShareHappygg.github.io\demo\Mybatis-demo\mybatis-test\src\main\resources" />
+      <recent name="G:\qrx\ShareHappygg.github.io\demo\Mybatis-demo\mybatis-test\src\main\java\com\exmaple\mybatisTest" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.mybatisTest.generator.processor.vo.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.mybatis-test [compile]">
+    <configuration name="GeneratorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.mybatisTest.generator.GeneratorApplication" />
+      <module name="mybatis-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mybatisTest.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mybatis-test [compile]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compile" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.mybatis-test [compile]" />
+        <item itemvalue="Application.GeneratorApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="355d0548-996f-46cf-88dc-bca4c076b710" name="Changes" comment="" />
+      <created>1669192296656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669192296656</updated>
+      <workItem from="1669192298112" duration="8812000" />
+      <workItem from="1669205573862" duration="2206000" />
+      <workItem from="1669208821948" duration="2377000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.jdks/corretto-11.0.16.1/lib/src.zip!/jdk.compiler/com/sun/tools/javac/processing/JavacProcessingEnvironment.java</url>
+          <line>690</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.jdks/corretto-11.0.16.1/lib/src.zip!/jdk.compiler/com/sun/tools/javac/processing/JavacProcessingEnvironment.java</url>
+          <line>787</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.sun.tools.javac.processing.JavacProcessingEnvironment$DiscoveredProcessors" memberName="processorIterator" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

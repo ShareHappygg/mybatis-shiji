@@ -1,0 +1,5 @@
+com.example.mybatisTest.generator.processor.param.add.GetAddCodeGenProcessor
+com.example.mybatisTest.generator.processor.param.delete.GetDeleteCodeGenProcessor
+com.example.mybatisTest.generator.processor.param.get.GetListCodeGenProcessor
+com.example.mybatisTest.generator.processor.param.update.GetUpdateCodeGenProcessor
+com.example.mybatisTest.generator.processor.vo.VoCodeGenProcessor
